@@ -3,7 +3,7 @@ const moment = require('moment');
 const path = require('path');
 
 var app=express();
-var port=process.env.PORT||3500;
+var port=process.env.PORT||3000;
 app.listen(port,function(err,data){
   if(err) throw err;
   console.log("Running at port:"+port);
